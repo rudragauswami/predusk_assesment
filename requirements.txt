@@ -1,0 +1,4 @@
+ultralytics>=8.0.0
+opencv-python>=4.6.0
+numpy
+lapx>=0.5.2   # Required for BoT-SORT/ByteTrack

@@ -97,8 +97,7 @@ def annotate_frame(frame, boxes, track_ids, confidences, trails, frame_count):
         draw_label(overlay, label, (x1, y1 - 2), color)
 
         # centre dot
-        cx, cy = (x1 + x2) // 2, (x1 + x2) // 2
-        cy = (y1 + y2) // 2
+        cx, cy = (x1 + x2) // 2, (y1 + y2) // 2
         cv2.circle(overlay, (cx, cy), 3, color, -1)
 
     # draw trajectory trails

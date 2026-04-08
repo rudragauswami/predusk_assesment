@@ -1,0 +1,9 @@
+{
+  "total_frames": 596,
+  "unique_ids": 7,
+  "processing_time_s": 143.36,
+  "avg_fps": 4.16,
+  "model": "yolov8n.pt",
+  "tracker": "botsort.yaml",
+  "confidence_threshold": 0.35
+}

@@ -1,4 +1,4 @@
-# Multi-Object Detection and Persistent ID Tracking
+# Multi-Object Detection and Persistent ID Tracking 
 
 A computer vision pipeline that detects and tracks multiple subjects in video footage, assigning consistent unique IDs across all frames. Built with **YOLOv8** for real-time object detection and **BoT-SORT** for robust multi-object tracking.
 
